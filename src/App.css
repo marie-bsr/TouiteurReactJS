@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+  
+}
+
+input{
+ text-align: center;
+ 
+}
+
+
+.header{
+  text-align: center;
+  color:#3A2F0B;
+  
+}
+
+.italic{
+font-style: italic;
+}
+
+.sendmessage{
+  /* background-color: black; */
+  height: 3rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.trend{
+  background-image: linear-gradient(to bottom, #e90d39, #ed5330, #ee7b31, #ec9d3f, #e9bb58, #decc68, #d2dc7d, #c7eb96, #adf1a9, #92f6bf, #77f9d8, #5ffbf1);
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  
+padding: 0.5rem;
+}
+.touitcontainer{
+  background-color:white;
+  width: 80%;
+ 
+}
+.boxpage{
+  display: flex;
+  margin: 1rem;
+}
+#formulaire{
+  display: flex;
+  justify-content: space-evenly;
+ padding: 2rem;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  width: auto;
+  flex-wrap: nowrap;
+ }
+ 
+ .nom {
+  width: 20vw;
+  height: 1.5rem;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 5px;
+ }
+ .message {
+  width: 50vw;
+  height: 1.5rem;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 5px;
+ }
+ .envoi {
+  width: 15vw;
+  height: 2rem;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 5px;
+  background-color:#EE4B1D;
+ }
+input {
+  border: 3px solid #EE4B1D;
+  border-radius: 0.3;
+  height: 1.5rem;
+}
+
+
+
+.touit{
+  margin:10px;
+  padding: 0.1rem;
+  word-wrap: break-word;
+  border-radius: 6px;
+  width:200px;
+  overflow:auto;
+}
+
+.container :nth-child(3n+0) {
+  background-color:#0083FF;
+}
+
+.container :nth-child(3n+1) {
+  background-color:#FF9399;
+}
+.container :nth-child(3n+2) {
+  background-color: #EE4B1D;
+}
+
+.touit :nth-child(odd) {
+  background-color: inherit;
+}
+
+.touit :nth-child(even) {
+  background-color: inherit;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap-reverse; 
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-content: space-around;
+padding: 2rem;
+}
+
+.mot{
+  width: fit-content;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+:placeholder-shown{
+  font-style: italic;
+}
+span {
+  align-self: center;
+  justify-self: center;
+  max-width: 90%;
+  margin: 20px 10px 20px 10px;
+ }
+ 
+ p {
+  width: fit-content;
+  margin-left: 2px;
+  margin-top: 2px;
+  align-self: flex-end;
+  justify-self: flex-end;
+  
+  font-size: 0.8em;
+  font-style:italic;
+  flex-wrap: nowrap;
+  word-wrap: none;
+ }
